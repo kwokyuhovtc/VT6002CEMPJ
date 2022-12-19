@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var text : String = ""
     var body: some View {
         Text("Hello, world!")
             .padding()
@@ -16,6 +17,7 @@ struct ContentView: View {
         }, label: {
             Text("My Button")
         })
+        TextField("hihi", text: $text)
     }
 }
 
