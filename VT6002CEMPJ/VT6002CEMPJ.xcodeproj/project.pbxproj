@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABC5C9C929504670003362B8 /* VT6002CEMPJApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC5C9C829504670003362B8 /* VT6002CEMPJApp.swift */; };
+		ABC5C9CB29504670003362B8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC5C9CA29504670003362B8 /* ContentView.swift */; };
+		ABC5C9CD29504671003362B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABC5C9CC29504671003362B8 /* Assets.xcassets */; };
+		ABC5C9D029504671003362B8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABC5C9CF29504671003362B8 /* Preview Assets.xcassets */; };
+		ABC5C9DB29504671003362B8 /* VT6002CEMPJTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC5C9DA29504671003362B8 /* VT6002CEMPJTests.swift */; };
+		ABC5C9E629504671003362B8 /* VT6002CEMPJUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC5C9E529504671003362B8 /* VT6002CEMPJUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABC5C9D729504671003362B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABC5C9BD29504670003362B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABC5C9C429504670003362B8;
+			remoteInfo = VT6002CEMPJ;
+		};
+		ABC5C9E229504671003362B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABC5C9BD29504670003362B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABC5C9C429504670003362B8;
+			remoteInfo = VT6002CEMPJ;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABC5C9C529504670003362B8 /* VT6002CEMPJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VT6002CEMPJ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC5C9C829504670003362B8 /* VT6002CEMPJApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VT6002CEMPJApp.swift; sourceTree = "<group>"; };
+		ABC5C9CA29504670003362B8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ABC5C9CC29504671003362B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABC5C9CF29504671003362B8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ABC5C9D129504671003362B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABC5C9D629504671003362B8 /* VT6002CEMPJTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VT6002CEMPJTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC5C9DA29504671003362B8 /* VT6002CEMPJTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VT6002CEMPJTests.swift; sourceTree = "<group>"; };
+		ABC5C9DC29504671003362B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABC5C9E129504671003362B8 /* VT6002CEMPJUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VT6002CEMPJUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC5C9E529504671003362B8 /* VT6002CEMPJUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VT6002CEMPJUITests.swift; sourceTree = "<group>"; };
+		ABC5C9E729504671003362B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABC5C9C229504670003362B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC5C9D329504671003362B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC5C9DE29504671003362B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABC5C9BC29504670003362B8 = {
+			isa = PBXGroup;
+			children = (
+				ABC5C9C729504670003362B8 /* VT6002CEMPJ */,
+				ABC5C9D929504671003362B8 /* VT6002CEMPJTests */,
+				ABC5C9E429504671003362B8 /* VT6002CEMPJUITests */,
+				ABC5C9C629504670003362B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABC5C9C629504670003362B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABC5C9C529504670003362B8 /* VT6002CEMPJ.app */,
+				ABC5C9D629504671003362B8 /* VT6002CEMPJTests.xctest */,
+				ABC5C9E129504671003362B8 /* VT6002CEMPJUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABC5C9C729504670003362B8 /* VT6002CEMPJ */ = {
+			isa = PBXGroup;
+			children = (
+				ABC5C9C829504670003362B8 /* VT6002CEMPJApp.swift */,
+				ABC5C9CA29504670003362B8 /* ContentView.swift */,
+				ABC5C9CC29504671003362B8 /* Assets.xcassets */,
+				ABC5C9D129504671003362B8 /* Info.plist */,
+				ABC5C9CE29504671003362B8 /* Preview Content */,
+			);
+			path = VT6002CEMPJ;
+			sourceTree = "<group>";
+		};
+		ABC5C9CE29504671003362B8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ABC5C9CF29504671003362B8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ABC5C9D929504671003362B8 /* VT6002CEMPJTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABC5C9DA29504671003362B8 /* VT6002CEMPJTests.swift */,
+				ABC5C9DC29504671003362B8 /* Info.plist */,
+			);
+			path = VT6002CEMPJTests;
+			sourceTree = "<group>";
+		};
+		ABC5C9E429504671003362B8 /* VT6002CEMPJUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ABC5C9E529504671003362B8 /* VT6002CEMPJUITests.swift */,
+				ABC5C9E729504671003362B8 /* Info.plist */,
+			);
+			path = VT6002CEMPJUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABC5C9C429504670003362B8 /* VT6002CEMPJ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABC5C9EA29504671003362B8 /* Build configuration list for PBXNativeTarget "VT6002CEMPJ" */;
+			buildPhases = (
+				ABC5C9C129504670003362B8 /* Sources */,
+				ABC5C9C229504670003362B8 /* Frameworks */,
+				ABC5C9C329504670003362B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VT6002CEMPJ;
+			productName = VT6002CEMPJ;
+			productReference = ABC5C9C529504670003362B8 /* VT6002CEMPJ.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABC5C9D529504671003362B8 /* VT6002CEMPJTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABC5C9ED29504671003362B8 /* Build configuration list for PBXNativeTarget "VT6002CEMPJTests" */;
+			buildPhases = (
+				ABC5C9D229504671003362B8 /* Sources */,
+				ABC5C9D329504671003362B8 /* Frameworks */,
+				ABC5C9D429504671003362B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABC5C9D829504671003362B8 /* PBXTargetDependency */,
+			);
+			name = VT6002CEMPJTests;
+			productName = VT6002CEMPJTests;
+			productReference = ABC5C9D629504671003362B8 /* VT6002CEMPJTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABC5C9E029504671003362B8 /* VT6002CEMPJUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABC5C9F029504671003362B8 /* Build configuration list for PBXNativeTarget "VT6002CEMPJUITests" */;
+			buildPhases = (
+				ABC5C9DD29504671003362B8 /* Sources */,
+				ABC5C9DE29504671003362B8 /* Frameworks */,
+				ABC5C9DF29504671003362B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABC5C9E329504671003362B8 /* PBXTargetDependency */,
+			);
+			name = VT6002CEMPJUITests;
+			productName = VT6002CEMPJUITests;
+			productReference = ABC5C9E129504671003362B8 /* VT6002CEMPJUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABC5C9BD29504670003362B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					ABC5C9C429504670003362B8 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					ABC5C9D529504671003362B8 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = ABC5C9C429504670003362B8;
+					};
+					ABC5C9E029504671003362B8 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = ABC5C9C429504670003362B8;
+					};
+				};
+			};
+			buildConfigurationList = ABC5C9C029504670003362B8 /* Build configuration list for PBXProject "VT6002CEMPJ" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABC5C9BC29504670003362B8;
+			productRefGroup = ABC5C9C629504670003362B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABC5C9C429504670003362B8 /* VT6002CEMPJ */,
+				ABC5C9D529504671003362B8 /* VT6002CEMPJTests */,
+				ABC5C9E029504671003362B8 /* VT6002CEMPJUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABC5C9C329504670003362B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC5C9D029504671003362B8 /* Preview Assets.xcassets in Resources */,
+				ABC5C9CD29504671003362B8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC5C9D429504671003362B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC5C9DF29504671003362B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABC5C9C129504670003362B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC5C9CB29504670003362B8 /* ContentView.swift in Sources */,
+				ABC5C9C929504670003362B8 /* VT6002CEMPJApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC5C9D229504671003362B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC5C9DB29504671003362B8 /* VT6002CEMPJTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC5C9DD29504671003362B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC5C9E629504671003362B8 /* VT6002CEMPJUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABC5C9D829504671003362B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABC5C9C429504670003362B8 /* VT6002CEMPJ */;
+			targetProxy = ABC5C9D729504671003362B8 /* PBXContainerItemProxy */;
+		};
+		ABC5C9E329504671003362B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABC5C9C429504670003362B8 /* VT6002CEMPJ */;
+			targetProxy = ABC5C9E229504671003362B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ABC5C9E829504671003362B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABC5C9E929504671003362B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABC5C9EB29504671003362B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"VT6002CEMPJ/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = VT6002CEMPJ/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.VT6002CEMPJ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABC5C9EC29504671003362B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"VT6002CEMPJ/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = VT6002CEMPJ/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.VT6002CEMPJ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ABC5C9EE29504671003362B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VT6002CEMPJTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.VT6002CEMPJTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VT6002CEMPJ.app/VT6002CEMPJ";
+			};
+			name = Debug;
+		};
+		ABC5C9EF29504671003362B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VT6002CEMPJTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.VT6002CEMPJTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VT6002CEMPJ.app/VT6002CEMPJ";
+			};
+			name = Release;
+		};
+		ABC5C9F129504671003362B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VT6002CEMPJUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.VT6002CEMPJUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VT6002CEMPJ;
+			};
+			name = Debug;
+		};
+		ABC5C9F229504671003362B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VT6002CEMPJUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.VT6002CEMPJUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VT6002CEMPJ;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABC5C9C029504670003362B8 /* Build configuration list for PBXProject "VT6002CEMPJ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC5C9E829504671003362B8 /* Debug */,
+				ABC5C9E929504671003362B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABC5C9EA29504671003362B8 /* Build configuration list for PBXNativeTarget "VT6002CEMPJ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC5C9EB29504671003362B8 /* Debug */,
+				ABC5C9EC29504671003362B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABC5C9ED29504671003362B8 /* Build configuration list for PBXNativeTarget "VT6002CEMPJTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC5C9EE29504671003362B8 /* Debug */,
+				ABC5C9EF29504671003362B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABC5C9F029504671003362B8 /* Build configuration list for PBXNativeTarget "VT6002CEMPJUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC5C9F129504671003362B8 /* Debug */,
+				ABC5C9F229504671003362B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABC5C9BD29504670003362B8 /* Project object */;
+}
